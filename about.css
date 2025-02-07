@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1050px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+}
+.content__title{
+    font-family: "Montserrat", serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39.01px;
+    text-align: center;
+    color: #6E728E;
+
+}
+.content__inner__box{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 40px
+}
+.content__text{
+    font-family: "Montserrat", serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #6E728E;
+    opacity: 0.5;
+}
+.wrap{
+    margin-top: 58px;
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr ;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+}
+.contact{
+    max-width: 350px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 31px 31px ;
+    text-align: center;
+    -webkit-box-shadow: 0px 2px 8px -1px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 2px 8px -1px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 2px 8px -1px rgba(34, 60, 80, 0.2);
+    
+}
+.contaxt__box{
+    margin-top: 32px;
+}
+.contact__title{
+    font-family: "Montserrat", serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #6E728E;
+    
+}
+.contact__number{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Montserrat", serif;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 71px;
+    color: #4A4D60;
+}
+.contact_cost{
+    font-family: "Montserrat", serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48.76px;
+    color: #4A4D60;
+}
+.contact__hr{
+    margin-top: 12px;
+    max-width: 288px;
+    width: 100%;
+    height: 1px;
+    opacity: 0.25px;
+
+}
+.contact__text{
+    margin-top: 12px;
+    font-family: "Montserrat", serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #6E728E;
+}
+.button{
+    margin-top: 32px;
+    width: 100%;
+    padding: 14px 0;
+    border: none;
+    border-radius: 6px;
+    background: linear-gradient(135deg, #A2A7F0 0%, #696EDD 100%);
+    font-family: "Montserrat", serif;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15.85px;
+    color: #fff;
+}
+.button:hover {
+    background-color: rgb(196, 87, 24);
+    transform: scale(1.1);
+}
+.wrap__contact{
+    padding: 54px 31px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    max-width: 350px;
+    width: 100%;
+
+   
+    background: linear-gradient(135.06deg, #A2A7F0 -0.05%, #696EDD 100.05%);
+    -webkit-box-shadow: 0px 2px 8px -1px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 2px 8px -1px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 2px 8px -1px rgba(34, 60, 80, 0.2);
+}
+.wrap__inner_contact{
+   padding-top: 25px;
+
+}
+.wrap_button{
+    color:#6D72DE;
+    margin-top: 32px;
+    width: 100%;
+    padding: 14px 0;
+    border: none;
+    border-radius: 6px;
+    background-color: white;
+    font-family: "Montserrat", serif;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15.85px;
+ 
+}
+.wrap__contact__text{
+    margin-top: 12px;
+    font-family: "Montserrat", serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #fff;
+}
+.wrap__contact__title{
+    font-family: "Montserrat", serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #fff;
+}
+.wrap__contact__number{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Montserrat", serif;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 71px;
+    color: #fff;
+}
+.wrap__contact_cost{
+    font-family: "Montserrat", serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48.76px;
+    color: #fff;
+}
+@media screen and (max-width: 1050px){
+ .wrap{
+    grid-template-columns: 1fr;
+ }
+
+    .contact{
+        margin: 0 auto;
+    }
+    .wrap__contact{
+        margin: 0 auto;
+    }
+}
